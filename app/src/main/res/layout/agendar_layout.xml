@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.senac.sp.l13.bodycarespa.Auriculo_Activity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="10dp">
+
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/logo"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/agendamento_txt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agendamento"
+            android:textSize="24sp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tecnicas"/>
+
+        <RadioButton
+            android:id="@+id/RadioQuickmassage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quick_massage" />
+
+        <RadioButton
+            android:id="@+id/RadioAuriculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/auriculoterapia" />
+
+        <RadioButton
+            android:id="@+id/radioReflexologia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reflexologia_podal"/>
+
+        <RadioButton
+            android:id="@+id/RadioVentosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ventosa"/>
+
+        <RadioButton
+            android:id="@+id/RadioDoIn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/palestra_do_in"
+            android:layout_marginBottom="10dp"/>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/textData"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/data"/>
+
+            <Button
+                android:id="@+id/data"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="SelecionarData"
+                android:text="Data"
+                android:layout_below="@id/textData"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/txtHora"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/hora"
+                android:layout_toRightOf="@id/data"/>
+
+            <EditText
+                android:id="@+id/lblHora"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/data"
+                android:layout_below="@id/txtHora"
+                android:layout_marginRight="20dp"/>
+
+            <TextView
+                android:id="@+id/txtQntFunc"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Qtd de Funcionarios:"
+                android:layout_toRightOf="@id/lblHora"/>
+
+            <EditText
+                android:id="@+id/lblQntFunc"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/lblHora"
+                android:layout_below="@id/txtHora"
+                android:hint="@string/max_50"/>
+
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/massoterapeutas"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:hint="@string/max_6"
+            android:layout_marginBottom="10dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/duracao"/>
+
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content" />
+
+
+
+
+
+    </LinearLayout>
+
+</ScrollView>

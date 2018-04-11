@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">BodyCareSpa</string>
+    <string name="entrar">Entrar</string>
+    <string name="senha">Senha:</string>
+    <string name="usuario">Usuario:</string>
+    <string name="agendar">Agendar</string>
+    <string name="contato">Contato</string>
+    <string name="quick_massage">Quick Massage</string>
+    <string name="quick_massage_text">Quick Massage é uma massagem rápida, com duração de 10 a 15 minutos realizada com o paciente sentado em uma cadeira ergonomicamente projetada para esta finalidade.</string>
+    <string name="auriculoterapia">Auriculoterapia</string>
+    <string name="text_auriculoterapia">Auriculoterapia é uma técnica milenar que utiliza pressão em pontos situados na região da orelha para curar ou tratar diversos tipos de doenças, além de promover mais saúde e qualidade de vida.</string>
+    <string name="ventosa">Ventosa</string>
+    <string name="text_ventosa">A ventosa utiliza sucção como forma de terapia e pode ser utilizada como um auxílio para tratamentos com fins terapêuticos e é um grande aliado a outras técnicas de massagem.</string>
+    <string name="reflexologia_podal">Reflexologia Podal</string>
+    <string name="text_reflexologia">Reflexologia podal consiste na aplicação de pressão em pontos do pé, para equilibrar a energia do corpo e evitar o surgimento de doenças e problemas de saúde.</string>
+    <string name="palestra_do_in">Palestra Do-in</string>
+    <string name="text_do_in">Técnica de automassagem de origem chinesa que utiliza os pontos dos meridianos energéticos do corpo humano, conhecidos na prática da Medicina Tradicional Chinesa.</string>
+    <string name="extended_text_doin">Do-In Massagem japonesa que utiliza os meridianos para equilíbrio energético do corpo. Usa os pontos de acupuntura para prevenir e tratar enfermidades. Ela restaura e desbloqueia o fluxo de Ki, a energia segundo a medicina chinesa. É muito usada para fazer auto massagem.</string>
+    <string name="extended_text_auriculo">Auriculoterapia é uma técnica milenar que utiliza pressão em pontos situados na região da orelha para curar ou tratar diversos tipos de doenças, além de promover mais saúde e qualidade de vida. Essa pressão é feita com aplicação de sementes que ficam presas por adesivos, e além de oferecerem excelentes resultados são muito práticas e rápidas de serem aplicadas. Acredita-se que o formato de nossas orelhas seja semelhante ao de um feto humano, e que determinados pontos correspondem a sentidos, órgãos e emoções, sendo capazes de enviar informações sensoriais quando são estimulados, tornando possível tratar todo tipo de problema de saúde, sejam estes físicos, psíquicos ou emocionais.</string>
+    <string name="extended_text_ventosa">Ventosaterapia é uma técnica milenar que utiliza sucção como forma de terapia. Ao ser realizada a sucção da pele e a musculatura para dentro do copo, o vácuo formado estimula a circulação sanguínea e com este processo são liberadas as toxinas existentes do sangue. A ventosaterapia pode ser utilizada como um auxílio para tratamentos com fins terapêuticos e é um grande aliado a outras técnicas de massagem.</string>
+    <string name="extended_text_reflexologia">Reflexologia podal consiste na aplicação de pressão em pontos do pé, para equilibrar a energia do corpo e evitar o surgimento de doenças e problemas de saúde.Aliado a um escalda-pés feito com óleos essenciais, promove maior relaxamento e sensação de bem estar. Cada ponto nos pés representa uma área específica do corpo. Quando é realizada a pressão nestes pontos, tanto o cérebro quanto o sistema nervoso são estimulados e conseguem corrigir qualquer disfunção, fazendo com que o próprio organismo elimine as toxinas existentes.</string>
+    <string name="extended_text_quickmassage">Quick Massage é uma massagem rápida, com duração de 10 a 15 minutos realizada com o paciente sentado em uma cadeira ergonomicamente projetada para esta finalidade. A massagem é realizada na cabeça, pescoço, ombros, braços e mãos. Esta massagem é realizada com manobras adaptadas de técnicas orientais e tem como foco proporcionar o relaxamento muscular em poucos minutos.</string>
+    <string name="agendamento">Agendamento</string>
+    <string name="tecnicas">Tecnicas:</string>
+    <string name="data">Data:</string>
+    <string name="hora">Hora:</string>
+    <string name="max_50">(max:50)</string>
+    <string name="massoterapeutas">Massoterapeutas:</string>
+    <string name="terapeutas">Terapeutas:</string>
+    <string name="max_6">(max:6)</string>
+    <string name="duracao">Duração:</string>
+</resources>

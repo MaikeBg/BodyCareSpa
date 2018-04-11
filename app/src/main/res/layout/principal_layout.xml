@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.senac.sp.l13.bodycarespa.Principal_Activity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp">
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logoaberto" />
+
+        <Button
+            android:id="@+id/btnAgendar"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/agendar"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/logo"
+            android:layout_marginBottom="10dp"
+            android:onClick="AgendarClick"/>
+
+        <Button
+            android:id="@+id/btnContato"
+            android:layout_width="170dp"
+            android:layout_height="wrap_content"
+            android:text="@string/contato"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/logo"
+            android:layout_marginBottom="10dp"
+            android:onClick="ContatoClick"/>
+
+        <ImageView
+            android:id="@+id/imgQuickMassage"
+            android:layout_width="160dp"
+            android:layout_height="104dp"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/titleQuickMassage"
+            android:onClick="QuickClick"
+            android:src="@drawable/quickmassage" />
+
+        <TextView
+            android:id="@+id/titleQuickMassage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quick_massage"
+            android:layout_toRightOf="@id/imgQuickMassage"
+            android:layout_below="@id/btnContato"
+            android:layout_margin="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textQuickMassage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/quick_massage_text"
+            android:layout_below="@id/titleQuickMassage"
+            android:layout_toRightOf="@id/imgQuickMassage"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/imgAuricuterapia"
+            android:layout_width="160dp"
+            android:layout_height="104dp"
+            android:src="@drawable/auriculo"
+            android:layout_below="@id/imgQuickMassage"
+            android:layout_marginTop="45dp"
+            android:onClick="AuriculoClick"/>
+
+        <TextView
+            android:id="@+id/titleAuriculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/auriculoterapia"
+            android:layout_toRightOf="@id/imgAuricuterapia"
+            android:layout_below="@id/textQuickMassage"
+            android:layout_margin="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textAuriculo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_auriculoterapia"
+            android:layout_below="@id/titleAuriculo"
+            android:layout_toRightOf="@id/imgAuricuterapia"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="10dp"/>
+
+        <ImageView
+            android:id="@+id/imgVentosa"
+            android:layout_width="160dp"
+            android:layout_height="104dp"
+            android:src="@drawable/ventosa"
+            android:layout_below="@id/imgAuricuterapia"
+            android:layout_marginTop="49dp"
+            android:onClick="VentosaClick"/>
+
+        <TextView
+            android:id="@+id/titleVentosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/ventosa"
+            android:layout_toRightOf="@id/imgVentosa"
+            android:layout_below="@id/textAuriculo"
+            android:layout_margin="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textVentosa"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_ventosa"
+            android:layout_below="@id/titleVentosa"
+            android:layout_toRightOf="@id/imgVentosa"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="20dp"/>
+
+        <ImageView
+            android:id="@+id/imgReflexologia"
+            android:layout_width="160dp"
+            android:layout_height="104dp"
+            android:src="@drawable/reflexologia"
+            android:layout_below="@id/imgVentosa"
+            android:layout_marginTop="48dp"
+            android:onClick="ReflexologiaClick"
+            />
+
+        <TextView
+            android:id="@+id/titleReflexologia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reflexologia_podal"
+            android:layout_toRightOf="@id/imgReflexologia"
+            android:layout_below="@id/textVentosa"
+            android:layout_margin="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textReflexologia"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_reflexologia"
+            android:layout_below="@id/titleReflexologia"
+            android:layout_toRightOf="@id/imgReflexologia"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="40dp" />
+
+        <ImageView
+            android:id="@+id/imgDoin"
+            android:layout_width="160dp"
+            android:layout_height="104dp"
+            android:src="@drawable/doin"
+            android:layout_below="@id/imgReflexologia"
+            android:layout_marginTop="48dp"
+            android:onClick="DoinClick"/>
+
+        <TextView
+            android:id="@+id/titleDoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/palestra_do_in"
+            android:layout_toRightOf="@id/imgDoin"
+            android:layout_below="@id/textReflexologia"
+            android:layout_margin="5dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textDoin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/text_do_in"
+            android:layout_below="@id/titleDoin"
+            android:layout_toRightOf="@id/imgDoin"
+            android:layout_marginLeft="5dp"
+            android:layout_marginBottom="50dp" />
+
+
+    </RelativeLayout>
+
+</ScrollView>
+
